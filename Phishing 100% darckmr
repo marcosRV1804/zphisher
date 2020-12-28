@@ -1,0 +1,53 @@
+Analizamos una campaña de phishing activa que llega a través del correo y que busca robar credenciales de acceso, datos de tarjetas de crédito, entre otra información sensible.
+
+Esta campaña de phishing, activa al momento de escribir este artículo, comienza con un mensaje que llega a través del correo con el asunto “Aviso de actualizaciones” en el cual se informa a la potencial víctima la puesta en funcionamiento de un nuevo sistema de seguridad que inhabilitaría las cuentas en línea, por lo que los usuarios del servicio deberán registrarse nuevamente para evitar la suspensión de la cuenta.
+
+
+Imagen 1. Correo que llega a la potencial víctima imitando la identidad de Mastercard.
+
+Lo primero que debería hacer el usuario ante un correo como este es verificar la dirección del remitente. En este caso se puede observar que, a pesar hacer referencia al nombre de la empresa, la dirección de correo no coincide para nada con cualquier dirección oficial de la misma. Otro dato que también debería alertar es el servidor de correo que se utiliza para el envío de la campaña.
+
+Por sus características, se trata de una campaña dirigida a usuarios de habla hispana en general y no hacia un país en particular.
+
+El mensaje invita a la potencial víctima a hacer clic en un enlace. Si el usuario sospecha que se trata de un correo falso podrá verificar que se trata de un engaño colocando el cursor del mouse sobre el enlace, sin hacer clic, tal como se puede apreciar en la Imagen 2. De esta manera verá que se trata de una redirección a un servidor que no tiene relación con el servicio legítimo de la marca cuya identidad suplanta, sino que es de un sitio que fue comprometido y posteriormente utilizado para alojar el falso sitio.
+
+
+Imagen 2. URL detrás del enlace no tiene relación con la empresa cuya identidad suplanta.
+
+Si el usuario desprevenido decide hacer clic en el enlace se encontrará con una pantalla muy similar a la original:
+
+
+Imagen 3. Cualquiera de las dos opciones direccionarán a la víctima a una página que solicitará información sensible.
+
+Como hemos visto prácticamente en todas las campañas de phishing durante el último año, los ciberdelincuentes suelen utilizar certificados SSL en los falsos sitios. De esta manera, al figurar el candado cerrado a la izquierda de la URL en la barra de direcciones, el usuario puede llegar a caer en el engaño de creer que se trata de un sitio seguro. Si bien no es obligatorio para todos los servidores, el uso de certificados es una práctica de seguridad que debería seguir cualquier sitio que maneje información financiera, aunque claramente este factor por sí solo no es indicador de que el sitio sea realmente seguro y/o legítimo.
+
+Otro dato interesante es que la página en la cual se invita a ingresar los datos personales no hace ninguna referencia a la actualización de seguridad mencionada en el correo recibido inicialmente.
+
+Como parte de nuestro análisis, completamos los campos con datos ficticios y pudimos corroborar las reales intenciones de la campaña: robar credenciales e información privada de sus víctimas; inclusive la contraseña del correo electrónico.
+
+
+Imagen 4. Datos que roba el sitio apócrifo.
+
+Una vez ingresados los datos hay una supuesta verificación de los mismos.
+
+
+Imagen 5. Supuesta verificación de los datos ingresados en el falso sitio.
+
+Una vez completado el supuesto proceso de verificación se despliega un mensaje con un código de verificación con la intención de hacer más creíble el engaño y que la víctima no sospeche.
+
+
+Imagen 6. Supuesto código de verificación luego de completado el proceso de verificación de los datos.
+
+Una particularidad es que, tal como se puede observar en la Imagen 6, los cibercriminales detrás de esta campaña buscan ganar tiempo informándole a la víctima que el proceso de verificación de los datos y la rehabilitación de la cuenta tardará un día.
+
+Completado este proceso la víctima es redirigida al sitio oficial. Luego, si la víctima ingresa sus credenciales de acceso podrá ingresar a su cuenta sin problemas, creyendo tal vez que logró reactivar, o bien mantener su cuenta tras la notificación recibida, aunque no sin antes entregar toda su información personal y financiera a los operadores detrás de esta campaña de phishing.
+
+Durante el análisis no detectaron otras intenciones maliciosas, lo que demuestra que la campaña tiene como único objetivo el robo de datos personales.
+
+Las estafas en línea siguen siendo altamente activas y la ingeniería social como vector de ataque sigue estando a la cabeza de las amenazas actuales. Esto se debe, en gran parte, a que casi la mitad de los internautas sigue sin saber exactamente qué es el phishing, lo que los deja expuestos a ser víctimas de este tipo de engaño.
+
+Es cada vez más importante prestar atención a los sitios a los cuales ingresamos, contar con una solución de seguridad confiable tanto en nuestros dispositivos de escritorio como en nuestros teléfonos y tener presente que, ante la duda, no debemos acceder nunca a los enlaces que llegan a través de un mensaje, sino que lo mejor es ingresar manualmente y de esa manera verificar que todo esté en orden.
+
+Otro factor clave para reducir el número de víctimas del phishing es implementar el uso del doble factor de autenticación en todos los servicios que esté disponible, ya que esta capa de seguridad adicional que se agrega ayuda a evitar que terceros puedan acceder a nuestras cuentas en caso de ser víctimas del robo de nuestras credenciales de acceso en una brecha.
+
+El primer paso para los usuarios es aprender a reconocer este tipo de correos y tomarse un segundo para pensar, por lo que recomendamos la lectura de 8 señales que indican que eres un blanco fácil de las estafas por Internet, artículo en el que encontrarás una guía con algunas de las técnicas más comunes utilizadas por los cibercriminales para engañar a los usuarios.
